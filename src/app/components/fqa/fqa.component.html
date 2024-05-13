@@ -1,0 +1,20 @@
+<!-- <p>fqa works!</p> -->
+<div class="FAQ">
+    <div class="data">
+        <span>FAQ</span>
+
+        <div class="data-text">
+            <div class="quastion" *ngFor="let item of data; let i = index " >
+
+                <div class="icon" (click)="plus(i)">{{item.icon}}</div>
+                <div class="qtn">{{item.quation}}</div>
+                <span *ngIf="item.isopen" ></span>
+                <div *ngIf="item.isopen" >
+                    {{item.discription}}
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

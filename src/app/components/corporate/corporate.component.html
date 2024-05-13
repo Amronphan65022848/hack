@@ -1,0 +1,75 @@
+<!-- <p>corporate works!</p>
+ -->
+<!-- jkouo.component.html -->
+<div class="background-gradient">
+  <div class="container">
+
+    <div class="centered-content">
+      <h4 style="color: rgb(85, 83, 83);">OUR TOOL FITS FOR MORE THAN 50+ Industries </h4>
+      <h1 style=" color: rgb(69, 62, 62);">CORPORATE PRESENTATIONS </h1>
+    </div>
+
+    <div class="flexbox">
+      <div class="box" *ngFor="let item of items">
+        <div class="Databox">
+
+          <div class="img-box1">
+            <img src="../../../assets/img/box.png">
+          </div>
+
+          <div class="text">
+            <div class="topic">
+              <div class="icons">
+                <img src="../../../assets/img/crown 1.png">
+              </div>
+              {{ item.premium }}
+            </div>
+            <div class="Head">
+              <h3>{{ item.industry }}</h3>
+              <p>Industry</p>
+            </div>
+            <div class="bottom-text">
+              {{ item.description }}
+            </div>
+          </div>
+
+            <div class="border-box">
+              <img src="../../../assets/img/Vector 147.png" alt="">
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------- grid --------->
+    <div class="category-grid">
+      <div class="grid-row">
+        <button class="grid-item2">Engineering Industry</button>
+        <button class="grid-item2">Food Industry</button>
+        <button class="grid-item2">Cosmetic Industry</button>
+        <button class="grid-item2">Law Industry</button>
+        <button class="grid-item2">School Presentations</button>
+      </div>
+      <div class="grid-row">
+        <button class="grid-item2">Travel Industry</button>
+        <button class="grid-item2">Language Industry</button>
+        <button class="grid-item2">Mining & Steel Industy</button>
+        <button class="grid-item2">Engineering Industry</button>
+      </div>
+
+      <p>
+        With More than 50+ Industry, our BOTNOI VOICE Tool got proved among the best of all Text to Speech tools
+      </p>
+
+
+
+
+    </div>
+
+    <div class="btn">
+
+      <span class="Contact-us">
+        Contact-us
+      </span>
+    </div>
+  </div>
+</div>

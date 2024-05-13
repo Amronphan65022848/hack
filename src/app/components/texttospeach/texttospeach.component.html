@@ -1,0 +1,117 @@
+<!-- <p>texttospeach works!</p> -->
+<div class="background">
+
+    <div class="Contenner">
+        <div class="Contenner-top">
+            <span class="TEXT-TO-SPEECH">
+                TEXT TO SPEECH
+            </span>
+
+            <span class="Our-Features">
+                Our Features
+            </span>
+
+            <span class="Get-to-use">
+                Get to use the most salient features which brings a new innovation in your presentation giving a whole
+                new
+                outlook to your overall creation
+            </span>
+        </div>
+
+        <div class="grid-container">
+
+            <div class="grid-item" *ngFor="let item of speech  "  >
+                <div class="left-column">
+                   <img [src]="item.img" >
+                </div>
+                <div class="right-column">
+                    <div class="top"> <b>{{item.Category}} </b> </div>
+                    <div class="center">{{item.title}}</div>
+                    <div class="bottom">{{item.description}}
+                     </div>
+               </div>
+            </div>
+
+
+
+
+
+
+            <div class="grid-item">
+                <div class="left-column">
+                   <img src="../../../assets/img/imports.png" alt="">
+                </div>
+                <div class="right-column">
+                    <div class="top"><b> File Imports</b>   </div>
+                    <div class="center">Importing script files </div>
+                    <div class="bottom">Seamless file integration </div>
+               </div>
+            </div> 
+            <div class="grid-item">
+                <div class="left-column">
+                   <img src="../../../assets/img/Tones.png" alt="">
+                </div>
+                <div class="right-column">
+                    <div class="top"> <b>Tones & Accents</b>   </div>
+                    <div class="center">All age and gender tone </div>
+                    <div class="bottom">Customizable accent options </div>
+               </div>
+            </div> 
+            <div class="grid-item">
+                <div class="left-column">
+                   <img src="../../../assets/img/Volume.png" alt="">
+                </div>
+                <div class="right-column">
+                    <div class="top"> <b>Volume Phasers</b>   </div>
+                    <div class="center">Smooth Speed adjusts</div>
+                    <div class="bottom">Dynamic volume modulation </div>
+               </div>
+            </div> 
+            <div class="grid-item">
+                <div class="left-column">
+                   <img src="../../../assets/img/device_.png" alt="">
+                </div>
+                <div class="right-column">
+                    <div class="top"> <b>Device Optimize </b> </div>
+                    <div class="center">Maximize resolutions  </div>
+                    <div class="bottom">Optimized for all devices </div>
+               </div>
+            </div>  
+            <div class="grid-item">
+                <div class="left-column">
+                   <img src="../../../assets/img/language.png" alt="">
+                </div>
+                <div class="right-column">
+                    <div class="top"> <b>10+ Languages</b>  </div>
+                    <div class="center">with Native Accent  </div>
+                    <div class="bottom">Seamless file integration </div>
+               </div>
+            </div> 
+            <div class="grid-item">
+                <div class="left-column">
+                   <img src="../../../assets/img/Server Cloud.png" alt="">
+                </div>
+                <div class="right-column">
+                    <div class="top"> <b>API for Developers </b>  </div>
+                    <div class="center">Integrate as API for web  </div>
+                    <div class="bottom">Streamlined developer integration </div>
+               </div>
+            </div> 
+            <div class="grid-item">
+                <div class="left-column">
+                   <img src="../../../assets/img/control.png" alt="">
+                </div>
+                <div class="right-column">
+                    <div class="top"> <b>Manual Controls +</b>    </div>
+                    <div class="center">Smooth Voice generation with edit in studio </div>
+                    <div class="bottom">Fine-tuned manual adjustments </div>
+               </div>
+            </div> 
+        </div>
+       
+
+         <button>Create in Studio</button>
+     
+          
+    </div>
+</div>

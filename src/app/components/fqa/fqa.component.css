@@ -1,0 +1,49 @@
+.FAQ{
+    padding: 54px 96px 120px 96px;
+    /* border: black solid 1px; */
+}
+.data{
+    /* border: black solid 1px; */
+    /* height: 100vh; */
+    font-family: 'Inter', sans-serif;
+    
+}
+.data span{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    color: rgba(73, 33, 88, 1);
+}
+
+
+.quastion{
+    
+    padding: 20px;
+    border-bottom:  rgb(94, 91, 91) solid 1px ;
+    display: grid;
+    grid-template-columns: 50px auto ;
+    row-gap: 30px;
+    
+}
+.Click{
+    display: flex;
+   text-align: start;
+}
+.qtn{
+    /* flex-grow: 0; */
+    background-image: linear-gradient(to bottom, #332160, #67224f);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(to bottom, #7E4CDE, #C87DD4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
